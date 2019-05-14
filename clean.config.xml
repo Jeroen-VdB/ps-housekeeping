@@ -1,7 +1,0 @@
-<Config>
-    <Clean>
-        <Location>D:\Bib\qBitDownloads</Location>
-        <AgeInDays>1</AgeInDays>
-        <IncludeSubFolders>True</IncludeSubFolders>
-    </Clean>
-</Config>
