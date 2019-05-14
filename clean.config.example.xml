@@ -1,0 +1,12 @@
+<Config>
+    <Clean>
+        <Location>C:\Users\Bob\Downloads</Location>
+        <AgeInDays>14</AgeInDays>
+        <IncludeSubFolders>True</IncludeSubFolders>
+    </Clean>
+    <Clean>
+        <Location>C:\Users\Bob\Documents\Temp</Location>
+        <AgeInDays>30</AgeInDays>
+        <IncludeSubFolders>False</IncludeSubFolders>
+    </Clean>
+</Config>
