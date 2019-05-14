@@ -18,7 +18,5 @@ Note that the log file will be removed at the beginning of every run.
 5. Create an action:
 	- Program: `Powershell.exe`
 	- Add arguments: `-ExecutionPolicy Bypass F:\Housekeeping\clean.ps1`
-		* Path depends on where the script is located
-
-
+		* Path depends on where the script is located  
 Reference: https://community.spiceworks.com/how_to/17736-run-powershell-scripts-from-task-scheduler
