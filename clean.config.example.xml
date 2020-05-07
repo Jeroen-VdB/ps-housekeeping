@@ -1,12 +1,26 @@
 <Config>
     <Clean>
-        <Location>C:\Users\Bob\Downloads</Location>
+        <Location>C:\Users\Bob\RemoveFilesOnlyInThisFolder</Location>
         <AgeInDays>14</AgeInDays>
-        <IncludeSubFolders>True</IncludeSubFolders>
+        <Recurse>False</Recurse>
+        <RemoveIfEmpty>False</RemoveIfEmpty>
     </Clean>
     <Clean>
-        <Location>C:\Users\Bob\Documents\Temp</Location>
-        <AgeInDays>30</AgeInDays>
-        <IncludeSubFolders>False</IncludeSubFolders>
+        <Location>C:\Users\Bob\RemoveFilesAndEmptyFoldersOnlyInThisFolder</Location>
+        <AgeInDays>14</AgeInDays>
+        <Recurse>False</Recurse>
+        <RemoveIfEmpty>True</RemoveIfEmpty>
+    </Clean>
+    <Clean>
+        <Location>C:\Users\Bob\RemoveFilesAlsoInSubFolders</Location>
+        <AgeInDays>14</AgeInDays>
+        <Recurse>True</Recurse>
+        <RemoveIfEmpty>False</RemoveIfEmpty>
+    </Clean>
+    <Clean>
+        <Location>C:\Users\Bob\RemoveFilesAndEmptyFoldersAlsoInSubFolders</Location>
+        <AgeInDays>14</AgeInDays>
+        <Recurse>True</Recurse>
+        <RemoveIfEmpty>True</RemoveIfEmpty>
     </Clean>
 </Config>
